@@ -1,0 +1,251 @@
+/* mobile version */
+@media all and (min-width: 375px){
+
+body{
+  margin: 0 auto;
+  padding-bottom:20px;
+  background-color:white;
+  font-family: "Helvetica Neue","Arial","sans-serif";
+}
+
+h2{
+  font-size: 22px !important;
+  font-weight: bold;
+  padding: 10px 0px 0px 10px;
+  line-height: 1.5em;
+  
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 10px;
+  display:block;
+  position:relative;
+
+}
+
+ul,li {
+  font-size: 16px !important;
+  padding: 10px 0px 0px 10px;
+  line-height: 1.5em;
+  
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  margin: 10px auto 10px auto;
+  border-top: 100px solid black;
+  border-right: 100px solid transparent;
+  display:block;
+}
+
+img {
+  width:100%;
+  height:auto;
+ }
+
+.col-1{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px; 
+  position: relative;
+  display: inline-block;
+}
+
+.col-2{
+  width: 90%;
+  display:block;
+  margin:0 auto;
+  padding: 10px;
+  margin-bottom:;
+  position: relative;
+}
+
+.col-3{
+  width: 90%;
+  display:block;
+  margin:0 auto;
+  padding: 10px;
+  position: relative;
+  
+}
+
+.col-4{
+  width: 100%;
+  height: auto; 
+  margin:0 auto;
+  display:inline;
+  position: relative;
+}
+
+
+.col-5{
+  width: 90 %;
+  display: block;
+  margin:0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+
+.col-6{
+  width: 90 %;
+  display:block;
+  margin:0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.col-7{
+  width: 90 %;
+  display:block;
+  margin:0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.border-top {
+  clear:both;
+  position: relative;
+  border-top: 1px solid grey;
+}
+
+}
+
+/* Desktop version  */
+@media all and (min-width: 768px){
+
+body{
+  /*width: 100%;*/
+  background-color: white;
+  font-family: "Helvetica Neue","Arial","sans-serif";
+  margin: 0 auto;
+
+}
+
+h2{
+  font-size: 22px !important;
+  font-weight: bold;
+  padding-top: 10px;
+  line-height: 1.5em;
+}
+
+p{
+  font-family: 13px;
+  line-height: 1.5em;
+  padding: 10px;
+}
+
+img {
+  width:100%;
+  height:auto;
+  margin: 0 auto;
+ }
+
+a {
+  color:#000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+.page-wrapper{
+  max-width: 1240px;/* using max-width allows the page to be a wide as it is allowed to be */
+  margin:0 auto;
+  position: initial;
+}
+
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  margin: 10px auto 10px auto;
+  border-top: 100px solid black;
+  border-right: 100px solid transparent;
+}
+
+
+.col-1{
+ width: 35%;
+ float:left;
+ display: inline;
+ margin-top:10px;
+ padding: 10px;
+;
+
+}
+
+.col-2{
+  width:25%;
+  float:left;
+  display:inline;
+  margin-top:10px;
+  padding: 10px;
+
+}
+
+.col-3{
+  width: 25%;
+  float:left;
+  display:inline;
+  margin-top:10px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+
+  
+}
+
+.col-4{
+  width: 100%;
+  height: auto;
+  float:left;
+  display:inline;
+  margin-top: 20px;
+  overflow:hidden;
+  /* margin: 20px 20px 20px 20px; */
+  
+  
+}
+
+
+.col-5{
+  width:35%;
+  float:left;
+  display:inline;
+  margin-top:10px;
+  padding: 10px;
+
+}
+
+.col-6{
+  width:25%;
+  float:left;
+  display:inline;
+  margin-top:10px;
+  padding: 10px;
+}
+
+
+.border-top {
+  width:100%;
+  border-top: 1px solid grey;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.back-to-top-button {
+  background-color: black;
+  text-align: center;
+  width: 50%;
+  color: white;
+  padding: 10px;
+}
+
+}
+
+
+  
